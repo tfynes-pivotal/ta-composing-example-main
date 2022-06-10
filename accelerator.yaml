@@ -2,9 +2,9 @@ accelerator:
   name: ta-composing-demo-main
   displayName: Composing Example Main
   options:
-  - name: flavor
-    dataType: string
-    defaultValue: "strawberry"
+    - name: flavor
+      dataType: string
+      defaultValue: "strawberry"
   imports:
     - name: ta-composing-example-fragment
 engine:
