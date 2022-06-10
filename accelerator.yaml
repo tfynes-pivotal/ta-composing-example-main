@@ -1,0 +1,13 @@
+accelerator:
+  displayName: Composing Demo
+  description: Composing Demo
+  iconUrl: https://raw.githubusercontent.com/sample-accelerators/icons/master/icon-tanzu-light.png
+  tags: []
+  options:
+  - name: Name
+    label: Composing Demo
+    display: true
+    defaultValue: ""
+engine:
+  include:
+  - '**'
