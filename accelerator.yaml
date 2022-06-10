@@ -6,7 +6,7 @@ accelerator:
       dataType: string
       defaultValue: "strawberry"
   imports:
-    - name: ta-composing-example-fragment
+    #- name: ta-composing-example-fragment
 engine:
   include:
   - '**'
