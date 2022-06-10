@@ -1,6 +1,6 @@
 accelerator:
   name: ta-composing-demo-main
-  displayName: Composing Example
+  displayName: Composing Example Main
   options:
   - name: flavor
     dataType: string
