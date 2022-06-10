@@ -1,13 +1,12 @@
 accelerator:
-  displayName: Composing Demo
-  description: Composing Demo
-  iconUrl: https://raw.githubusercontent.com/sample-accelerators/icons/master/icon-tanzu-light.png
-  tags: []
+  name: ta-composing-demo-main
+  displayName: Composing Example
   options:
-  - name: Name
-    label: Composing Demo
-    display: true
-    defaultValue: ""
+  - name: flavor
+    dataType: string
+    defaultValue: "strawberry"
+  imports:
+    - name: ta-composing-demo-fragment
 engine:
   include:
   - '**'
