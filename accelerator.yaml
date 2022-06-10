@@ -5,8 +5,8 @@ accelerator:
   - name: flavor
     dataType: string
     defaultValue: "strawberry"
-#  imports:
-#    - name: ta-composing-demo-fragment
+  imports:
+    - name: ta-composing-demo-fragment
 engine:
   include:
   - '**'
